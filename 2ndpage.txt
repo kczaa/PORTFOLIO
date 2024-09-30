@@ -1,0 +1,27 @@
+<html>
+<head><title>ICT PORTFOLIO</title></head>
+<body style="background-color:#4169E1;">
+
+<img src="1kissmark.png" alt="kiss mark" style="float:right;height:300;width:400;">
+
+<h1 align="center" style="color:D5B895;font-family:courier;font-size:300;">MENU</h1>
+
+<p align="center" style="color:white;font-size:90;font-family:courier;">
+Here are the different contents that you can see and interact with in my portfolio!!
+</p>
+
+<table border="1" style="width: 100%; text-align: center; font-size: 20px;">
+    <tr>
+        <td style="padding: 20px;"><a href="file:///C:/Users/czabi/Desktop/coding%20eme%20ni%20Angel/AboutMe.html" style="font-size: 200px; color: white;">About Me</a></td>
+        <td style="padding: 20px;"><a href="file:///C:/Users/czabi/Desktop/coding%20eme%20ni%20Angel/ICTlessonsandactivites.html" style="font-size: 200px; color: white;">ICT Lessons and Activities</a></td>
+    </tr>
+    <tr>
+        <td style="padding: 20px;"><a href="file:///C:/Users/czabi/Desktop/coding%20eme%20ni%20Angel/SchoolActivitiesandProjects.html" style="font-size: 200px; color: white;">School Activities and Projects </a></td>
+        <td style="padding: 20px;"><a href="file:///C:/Users/czabi/Desktop/coding%20eme%20ni%20Angel/Reflection.html" style="font-size: 200px; color: white;">REFLECTION</a></td>
+    </tr>
+</table>
+
+<img src="3kissmarks.png" alt="3 kiss marks" style="float:left; height:300px; width:400px;">
+
+</body>
+</html>

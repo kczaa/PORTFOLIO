@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICT Lessons and Activities</title>
+    <style>
+        body {
+            background-color: #4169E1;
+            color: white;
+            font-family: Courier;
+        }
+        .center {
+            text-align: center;
+        }
+    </style>
+</head>
+<h1 align="center" style="color:D5B895;font-family:courier;font-size:300;">ICT QUARTER 1 LESSONS</h1>
+<body>
+
+<p style="font-family:courier;font-size:90;color:white;">
+       The lessons that we had for 1st quarter really helped us build a strong foundation when it comes to making a website. These lessons include:
+</p>
+
+<ol type="A" style="font-family:courier;font-size:90;color:white;">
+    <li>XHTML</li>
+    <li>Lists</li>
+    <li>Tables</li>
+    <li>Hyperlinks</li>
+    <li>Forms</li>
+</ol>
+
+<p style="font-family:courier;font-size:90;color:white;">
+    XHTML is a stricter and cleaner version of HTML, meant to replace HTML.<br>
+    The enumeration of lessons above is an example of an HTML list.<br>
+    A hyperlink is a way for users to jump from one website to another.<br>
+</p>
+
+<div class="center">
+    <a href="https://youtu.be/RImeI52Y8zo?feature=shared" style="font-size: 90; color: white;">Press Me</a>
+</div><br>
+
+<p style="font-family:courier;font-size:90;color:white;"> 
+    A table helps organize different data in rows and columns.<br>
+
+<h2>Simple Table Example</h2>
+
+<table border="1" cellspacing="0" cellpadding="5" align="center">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>Alice</td>
+            <td>30</td>
+            <td>New York</td>
+        </tr>
+        <tr>
+            <td>Bob</td>
+            <td>25</td>
+            <td>Los Angeles</td>
+        </tr>
+        <tr>
+            <td>Charlie</td>
+            <td>35</td>
+            <td>Chicago</td>
+        </tr>
+    </tbody>
+</table>
+
+    Using HTML forms will help gather data that can enhance the form itself once submitted.<br>
+</p>
+
+<p style="font-family:courier;font-size:90;color:white;">These are the works LPSCI students handle every day</p>
+<select name="contractchoice" size="2">
+    <option>Assignments</option>
+    <option>Tests</option>
+    <option>School Work</option>
+</select>
+
+ <h2>Select Your Favorite Fruit</h2>
+
+<form>
+    <label for="fruits">Choose a fruit:</label>
+    <select id="fruits" name="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="cherry">Cherry</option>
+        <option value="date">Date</option>
+        <option value="elderberry">Elderberry</option>
+    </select>
+    <br><br>
+    <input type="reset" value="Reset">
+</form>
+
+<h2>Select Your Hobby</h2>
+<form>
+    <label>
+        <input type="checkbox" name="hobbies" value="reading"> Reading
+    </label><br>
+    <label>
+        <input type="checkbox" name="hobbies" value="traveling"> Traveling
+    </label><br>
+    <label>
+        <input type="checkbox" name="hobbies" value="gaming"> Gaming
+    </label><br>
+    <label>
+        <input type="checkbox" name="hobbies" value="cooking"> Cooking
+    </label><br>
+    <label>
+        <input type="checkbox" name="hobbies" value="hiking"> Hiking
+    </label><br><br>
+    <input type="reset" value="Reset">
+</form>
+
+<h2>Provide Your Feedback</h2>
+
+<form action="mailto:czabinaangelsantos@gmail.com" method="post" enctype="text/plain">
+    <label for="feedback">Your Feedback:</label><br>
+    <textarea id="feedback" name="feedback" rows="4" cols="50" placeholder="Write your feedback here..."></textarea>
+    <br><br>
+    <input type="submit" value="Submit">
+    <input type="reset" value="Reset">
+</form>
+</body>
+</html>
